@@ -6,11 +6,16 @@ body {
 
 hr {
   border: solid;
+  clear: both;
 }
 
 a {
   font-weight: bolder;
   color: #db3b61;
+}
+
+h2 {
+  text-align: left;
 }
 
 h3 {
@@ -88,18 +93,8 @@ h3 {
   border: solid 3px #555574;
   border-radius: 100%;
   margin: 0 auto;
-  margin-right: 20px;
-  float: left;
-}
-
-.other-skills-img {
-  width: 200px;
-  height: 200px;
-  border: solid 3px #555574;
-  border-radius: 100%;
-  margin: 0 auto;
-  margin-right: 20px;
-  float: left;
+  margin-left: 20px;
+  float: right;
 }
 
 .work-img {
@@ -118,8 +113,8 @@ h3 {
   border: solid 3px #555574;
   border-radius: 100%;
   margin: 0 auto;
-  margin-right: 20px;
-  float: left;
+  margin-left: 20px;
+  float: right;
 }
 
 .p-text {
@@ -215,5 +210,51 @@ h3 {
 }
 
 .btn {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: #EF3F61;
+   font-family: 'Yusei Magic', sans-serif;
+   font-size: 30px;
+   font-weight: 100;
+   padding: 25px;
+   background-color: #3A3A59;
+   border: solid #EF3F61 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+.btn:hover {
+   background: #EF3F61;
+   border: solid #3A3A59 3px;
+   color: #3A3A59;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.h2-bottom {
   font-size: 2rem;
+  text-align: center;
+}
+
+.p-bottom-text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.footer-link {
+  padding-top: 25px;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  padding-bottom: 50px;
+  margin-bottom: 0;
 }
